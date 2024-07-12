@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>US Regions Kanban Board</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+        }
+        .kanban-board {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            overflow-x: scroll;
+        }
+        .kanban-column {
+            background-color: #e3e4e8;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            width: 220px;
+            padding: 10px;
+            margin: 0 10px;
+            flex-shrink: 0;
+        }
+        .kanban-column h2 {
+            background-color: #444;
+            color: white;
+            padding: 10px;
+            margin: -10px -10px 10px -10px;
+            border-radius: 5px 5px 0 0;
+            text-align: center;
+        }
+        .kanban-card {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 10px;
+            margin: 5px 0;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .new-england .kanban-card { background-color: #ffcccb; }
+        .mid-atlantic .kanban-card { background-color: #add8e6; }
+        .south .kanban-card { background-color: #90ee90; }
+        .midwest .kanban-card { background-color: #ffffe0; }
+        .west .kanban-card { background-color: #d3d3d3; }
+    </style>
+</head>
+<body>
+    <div class="kanban-board">
+        <div class="kanban-column new-england">
+            <h2>New England</h2>
+            <div class="kanban-card">Maine</div>
+            <div class="kanban-card">Vermont</div>
+            <div class="kanban-card">New Hampshire</div>
+            <div class="kanban-card">Massachusetts</div>
+            <div class="kanban-card">Rhode Island</div>
+            <div class="kanban-card">Connecticut</div>
+        </div>
+        <div class="kanban-column mid-atlantic">
+            <h2>Mid-Atlantic</h2>
+            <div class="kanban-card">New York</div>
+            <div class="kanban-card">New Jersey</div>
+            <div class="kanban-card">Pennsylvania</div>
+            <div class="kanban-card">Delaware</div>
+            <div class="kanban-card">Maryland</div>
+            <div class="kanban-card">Washington D.C.</div>
+        </div>
+        <div class="kanban-column south">
+            <h2>South</h2>
+            <div class="kanban-card">Virginia</div>
+            <div class="kanban-card">West Virginia</div>
+            <div class="kanban-card">North Carolina</div>
+            <div class="kanban-card">South Carolina</div>
+            <div class="kanban-card">Georgia</div>
+            <div class="kanban-card">Florida</div>
+            <div class="kanban-card">Alabama</div>
+            <div class="kanban-card">Mississippi</div>
+            <div class="kanban-card">Tennessee</div>
+            <div class="kanban-card">Kentucky</div>
+            <div class="kanban-card">Louisiana</div>
+            <div class="kanban-card">Arkansas</div>
+        </div>
+        <div class="kanban-column midwest">
+            <h2>Midwest</h2>
+            <div class="kanban-card">Ohio</div>
+            <div class="kanban-card">Michigan</div>
+            <div class="kanban-card">Indiana</div>
+            <div class="kanban-card">Illinois</div>
+            <div class="kanban-card">Wisconsin</div>
+            <div class="kanban-card">Minnesota</div>
+            <div class="kanban-card">Iowa</div>
+            <div class="kanban-card">Missouri</div>
+            <div class="kanban-card">North Dakota</div>
+            <div class="kanban-card">South Dakota</div>
+            <div class="kanban-card">Nebraska</div>
+            <div class="kanban-card">Kansas</div>
+        </div>
+        <div class="kanban-column west">
+            <h2>West</h2>
+            <div class="kanban-card">Montana</div>
+            <div class="kanban-card">Wyoming</div>
+            <div class="kanban-card">Colorado</div>
+            <div class="kanban-card">New Mexico</div>
+            <div class="kanban-card">Arizona</div>
+            <div class="kanban-card">Utah</div>
+            <div class="kanban-card">Nevada</div>
+            <div class="kanban-card">Idaho</div>
+            <div class="kanban-card">Washington</div>
+            <div class="kanban-card">Oregon</div>
+            <div class="kanban-card">California</div>
+            <div class="kanban-card">Alaska</div>
+            <div class="kanban-card">Hawaii</div>
+        </div>
+    </div>
+</body>
+</html>
+<iframe src="https://mori71982.github.io/usa/US_Regions_Kanban_Board.html" width="100%" height="600px"></iframe>
+<iframe src="https://mori71982.github.io/usa/Nettoyage%20et%20Organisation%20des%20Fichiers%20d'un%20Téléphone%20Cellulaire.html" width="100%" height="600px"></iframe>
+<iframe src="https://mori71982.github.io/usa/5%20sec%20pour%20organiser%20.html" width="100%" height="600px"></iframe>
